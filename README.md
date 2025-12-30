@@ -29,11 +29,6 @@ This project aims to **detect driver drowsiness in real time** by monitoring eye
 5️⃣ If EAR stays below threshold for required time → **Drowsiness Detected**  
 6️⃣ System beeps + shows alert message + highlights face
 
-**EAR Formula**
-
-\[
-EAR = \frac{||p2 - p6|| + ||p3 - p5||}{2 \times ||p1 - p4||}
-\]
 
 ---
 
