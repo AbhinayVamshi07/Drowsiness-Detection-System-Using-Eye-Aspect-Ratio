@@ -5,13 +5,13 @@ The system continuously monitors eye movement through a webcam and triggers an a
 
 ---
 
-## 🚗 Problem Statement
+##  Problem Statement
 Drowsy driving is one of the major causes of road accidents globally.  
 This project aims to **detect driver drowsiness in real time** by monitoring eye blink duration and alerting the user when they begin to fall asleep.
 
 ---
 
-## 🚀 Features
+## Features
 - ✔️ Real-time face & eye detection using webcam  
 - ✔️ Calculates **Eye Aspect Ratio (EAR)** for both eyes  
 - ✔️ Detects prolonged eye closure (indicates sleepiness)  
@@ -21,7 +21,7 @@ This project aims to **detect driver drowsiness in real time** by monitoring eye
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 1️⃣ Detect face using **dlib frontal face detector**  
 2️⃣ Extract **68 facial landmark points**  
 3️⃣ Identify left & right eye regions  
@@ -47,7 +47,7 @@ You can tune these values according to your environment.
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 - Python
 - OpenCV
 - dlib
@@ -57,7 +57,7 @@ You can tune these values according to your environment.
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### 1️⃣ Install Required Libraries
 ```bash
